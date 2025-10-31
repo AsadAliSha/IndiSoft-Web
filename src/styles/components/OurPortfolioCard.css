@@ -1,0 +1,61 @@
+.portfolio-screenshorts-image {
+  background-image: url('../../assets/app-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 411px;
+  height: 310px;
+  display: flex;
+  align-items: flex-end;
+  padding: 15px;
+}
+
+.portfolio-screenshorts-image Button {
+  background-color: #6362e5;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  height: 45px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* .portfolio-screenshorts-image:hover {
+    color:#000000;
+} */
+
+.portfolioc-card-content {
+  background-color: #303030;
+  width: 411px;
+  height: 210px;
+  padding: 25px 20px;
+}
+
+.portfolioc-card-content h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f05454;
+  margin-bottom: 20px;
+}
+
+.portfolioc-card-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 5px 0;
+}
+
+.portfolioc-card-content span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.portfolioc-card-content a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #6362e5;
+  text-decoration: none;
+}

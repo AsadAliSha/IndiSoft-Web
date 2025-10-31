@@ -1,0 +1,216 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 25px 0; */
+  width: 100%;
+  background-color: #303030;
+  background-image: url('../../assets/Background-image.png');
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  /* height: 100vh; */
+  box-shadow: 0 0 29px 0 rgb(0 0 0 / 5%);
+  /* position: fixed; */
+}
+.header-container {
+  background-color: #303030;
+}
+
+.company-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  /* margin: auto; */
+  padding: 25px 0;
+  /* position: fixed; */
+}
+
+.company-title h1 {
+  font-size: 35px;
+  /* margin: 0; */
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: #ffffff;
+  font-family: var(--font-primary);
+  text-transform: capitalize;
+}
+
+.company-title span {
+  color: #f05454;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-content a {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header-content .ant-space-item {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header-content .ant-space-item svg {
+  color: #ffffff;
+}
+
+.header-content .ant-space-item:hover {
+  color: #f05454;
+}
+
+.header-content a:hover {
+  color: #f05454;
+}
+
+.button-container Button {
+  display: flex;
+  align-items: center;
+  background-color: #6362e5;
+  border: none;
+  border-radius: 0px;
+  padding: 10px 20px;
+  width: 100px;
+  height: 44px;
+}
+
+.button-container span {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  font-family: var(--font-primary);
+  letter-spacing: 1px;
+}
+
+/* .banner-container {
+
+} */
+
+.banner-content {
+  display: flex;
+  /* justify-content: center;
+    align-items: center; */
+  flex-direction: column;
+  padding:70px 0;
+  width: 100%;
+  /* margin: auto; */
+}
+
+.banner-content h2 {
+  font-size: 100px;
+  font-weight: 900;
+  margin-bottom: 0px;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+}
+
+.banner-content h3 {
+  color: #ffffff;
+  font-size: 63px;
+  line-height: 60px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.banner-content p {
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(197 197 197 / 80%);
+  /* margin-bottom:100px; */
+  margin-top: 20px;
+}
+
+.banner-image {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.banner-image img {
+  width: 70%;
+}
+
+.banner-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.banner-button Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f05454;
+  border: none;
+  border-radius: 2px;
+  /* padding: 10px 20px; */
+  width: 200px;
+  height: 50px;
+}
+
+.banner-button span {
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.ant-modal-content {
+  width: 650px;
+  padding: 0 25px;
+}
+
+.banner-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.banner-btn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f05454;
+  border-radius: 50%;
+  padding: 5px;
+  /* width: 32px; */
+  /* height: 32px; */
+}
+
+.banner-btn-icon svg {
+  font-size: 20px;
+  color: #f05454;
+  text-align: center;
+}
+
+.banner-wrap span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #f05454;
+}
+
+.ant-modal .ant-modal-content {
+  background-color: transparent;
+  padding: 25px 45px;
+}
+
+.ant-modal-content {
+  width: 800px;
+  height: 80vh;
+}
+
+.ant-modal-footer {
+  display: none;
+}

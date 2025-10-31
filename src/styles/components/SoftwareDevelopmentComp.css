@@ -1,0 +1,49 @@
+.software-develop-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f05454;
+  padding: 100px 0;
+}
+
+.software-main-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.software-main-heading h2 {
+  font-size: 66px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.software-develop-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top:25px;
+}
+
+
+.software-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.software-button Button {
+background-color: transparent;
+color: #ffffff;
+width: 200px;
+height: 55px;
+font-size: 16px;
+font-weight:600;
+letter-spacing: 2px;
+border: 2px solid #ffffff;
+border-radius: 2px;
+}

@@ -1,0 +1,121 @@
+.ourcontact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0;
+  background-color: #373737;
+}
+
+.ourcontact-main-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding-top: 50px; */
+}
+
+.ourcontact-main-heading h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #f05454;
+  padding: 40px 0;
+  letter-spacing: 0px;
+}
+
+.ourcontact-main-heading p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-bottom: 60px;
+}
+
+.ourcontact-input-wrap {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.ourcontact-input {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.ourcontact-input .placename::placeholder {
+  font-size: 20px;
+  font-weight: 600;
+  color: #8997a7 !important;
+}
+.ant-input {
+  background-color: #303030 !important;
+  border: none;
+  border-radius: 4px;
+  height: 52px;
+}
+
+.oucontact-subject-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.oucontact-subject-input .placename::placeholder {
+  font-size: 20px;
+  font-weight: 600;
+  color: #8997a7 !important;
+}
+
+.message-input .text-area {
+  background-color: #303030 !important;
+  font-size: 20px;
+  font-weight: 600;
+  color: #8997a7 !important;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 10px;
+}
+
+.ourcontact-information {
+  background-color: #f05454;
+  padding: 25px 20px;
+  border-radius: 5px;
+  height: 450px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-information-box {
+  padding: 20px 30px;
+}
+
+.contact-information-box h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  margin-bottom: 20px;
+}
+
+.contact-information-box p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+}
+
+.input-btn Button {
+  background: #6362e5;
+  border: 0;
+  padding: 0px 5px;
+  color: #fff;
+  height: 55px;
+  width: 200px;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
