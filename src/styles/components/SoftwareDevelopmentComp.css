@@ -22,28 +22,27 @@
 }
 
 .software-develop-container p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #ffffff;
-    padding-top:25px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-top: 25px;
 }
 
-
 .software-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .software-button Button {
-background-color: transparent;
-color: #ffffff;
-width: 200px;
-height: 55px;
-font-size: 16px;
-font-weight:600;
-letter-spacing: 2px;
-border: 2px solid #ffffff;
-border-radius: 2px;
+  background-color: transparent;
+  color: #ffffff;
+  width: 200px;
+  height: 55px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
 }

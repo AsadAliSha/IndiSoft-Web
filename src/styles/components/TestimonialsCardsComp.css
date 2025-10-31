@@ -47,17 +47,17 @@
 }
 
 .carousel-content p {
-    font-size: 16px;
-    font-weight: 600;
-    color: #ffffff;
-    /* font-family: ''; */
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  /* font-family: ''; */
 }
 .carousel-icon {
-    /* display: flex; */
-    justify-content: center;
+  /* display: flex; */
+  justify-content: center;
 }
 
 .carousel-icon svg {
-    color: #f05454;
-    margin-top: 20px;
+  color: #f05454;
+  margin-top: 20px;
 }

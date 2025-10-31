@@ -22,12 +22,12 @@
 @import './components//AboutUs.css';
 @import './components/ContactUSComp.css';
 @import './components/Testimonials.css';
-@import './components/TestimonialsCardsComp.css'; 
+@import './components/TestimonialsCardsComp.css';
 @import './components/OurTeam.css';
 @import './components/OurPricing.css';
 @import './components//Blog.css';
 @import './components//Footer.css';
 @import './components/Header.css';
-@import  './components/SubBanner.css';
+@import './components/SubBanner.css';
 /* Page CSS */
 @import './pages/login.css';

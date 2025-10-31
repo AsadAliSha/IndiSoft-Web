@@ -52,15 +52,14 @@
 }
 
 .blog-cards-content a {
-    font-size: 20px;
-    font-weight: 700;
-    color: #f05454;
-    letter-spacing: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f05454;
+  letter-spacing: 0px;
   margin-bottom: 20px;
-
 }
 .blog-cards-content span {
-    font-size:16px;
-    font-weight: 600;
-    color: #cecdcd;
+  font-size: 16px;
+  font-weight: 600;
+  color: #cecdcd;
 }
