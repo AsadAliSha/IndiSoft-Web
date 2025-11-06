@@ -4,8 +4,14 @@ import OurPortfolioCard from './OurPortfolioCard'
 // import Title from 'antd/es/skeleton/Title'
 // import { Content } from 'antd/es/layout/layout'
 // import PortfolioScreenShotsComp from '../components/PortfolioScreenShotsComp'
+import App1 from '../assets/app-1.jpg'
+import Product1 from '../assets/product-1.jpg'
+import Branding1 from '../assets/branding-1.jpg'
+import Book1 from '../assets/books-1.jpg'
+import App2 from '../assets/app-2.jpg'
+import Product2 from '../assets/product-2.jpg'
 
-const OurPortfolioComp = () => {
+const OurPortfolioComp = ({ Heading = true }) => {
   const [activeBtn, setActiveBtn] = useState('All')
 
   const clickHandler = (value) => {
@@ -15,55 +21,63 @@ const OurPortfolioComp = () => {
   const Data = [
     {
       title: 'App 1',
-      category: 'Web design',
+      category: 'App design',
       client: 'New Company',
       date: '2 February, 2022',
       url: 'www.example.com',
+      bgImage: App1,
     },
     {
       title: 'Product 1',
-      category: 'Web design',
+      category: 'App Development',
       client: 'New Company',
       date: '2 February, 2022',
       url: 'www.example.com',
+      bgImage: Product1,
     },
     {
       title: 'Branding 1',
-      category: 'Web design',
+      category: 'Branding',
       client: 'New Company',
       date: '2 February, 2022',
       url: 'www.example.com',
+      bgImage: Branding1,
     },
     {
       title: 'Books 1',
-      category: 'Web design',
+      category: 'It Solutions',
       client: 'New Company',
       date: '2 February, 2022',
       url: 'www.example.com',
+      bgImage: Book1,
     },
     {
       title: 'App 2',
-      category: 'Web design',
+      category: 'App Design',
       client: 'New Company',
       date: '2 February, 2022',
       url: 'www.example.com',
+      bgImage: App2,
     },
     {
       title: 'Product 2',
-      category: 'Web design',
+      category: 'App Development',
       client: 'New Company',
       date: '2 February, 2022',
       url: 'www.example.com',
+      bgImage: Product2,
     },
   ]
 
   return (
     <div className='Portfolio-container'>
       <div className='width90 portfolio-main-wrapper'>
-        <div className='Portfolio-main-heading'>
-          <h1>Portfolio</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </div>
+        {Heading && (
+          <div className='Portfolio-main-heading'>
+            <h1>Portfolio</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+        )}
         <div className='portfolio-btn-container'>
           <div className='portfolio-btn-content'>
             <Button
@@ -107,34 +121,21 @@ const OurPortfolioComp = () => {
           </div>
         </div>
         <Row gutter={[20, 20]}>
-          {Data?.map((data, i) => (
-            <Col lg={8} md={8} xs={24} key={i}>
-              {/* <div> */}
-              <OurPortfolioCard
-                title={data?.title}
-                category={data?.category}
-                client={data?.client}
-                date={data?.date}
-                url={data?.url}
-              />
-              {/* </div> */}
-            </Col>
-          ))}
-          {/* <Col lg={8}>
-            <OurPortfolioCard />
-          </Col>
-          <Col lg={8}>
-            <OurPortfolioCard />
-          </Col>
-          <Col lg={8}>
-            <OurPortfolioCard />
-          </Col>
-          <Col lg={8}>
-            <OurPortfolioCard />
-          </Col>
-          <Col lg={8}>
-            <OurPortfolioCard />
-          </Col> */}
+          {Data?.filter((_d) => activeBtn === 'All' || _d?.category === activeBtn)?.map(
+            (data, i) => (
+              <Col lg={8} md={8} xs={24} key={i}>
+                {/* <div> */}
+                <OurPortfolioCard
+                  title={data?.title}
+                  category={data?.category}
+                  client={data?.client}
+                  date={data?.date}
+                  url={data?.url}
+                  bgImage={data?.bgImage}
+                />
+              </Col>
+            ),
+          )}
         </Row>
       </div>
     </div>

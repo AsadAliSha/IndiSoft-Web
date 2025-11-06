@@ -1,0 +1,53 @@
+.blog-container {
+  background-color: #373636;
+}
+
+.blog-image img {
+  width: 100%;
+}
+
+.blog-content {
+  background-color: #303030;
+  padding: 40px 30px;
+  margin-bottom: 30px;
+}
+
+.blog-content h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #6362e5;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.blog-content a {
+  font-size: 26px;
+  color: #f05454;
+  font-weight: 600;
+  letter-spacing: 0;
+  /* margin-bottom: 15px; */
+}
+.blog-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6362e5;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.blog-content span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #cecdcd;
+  letter-spacing: 0.5px;
+  padding: 20px 0;
+}
+
+.ant-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

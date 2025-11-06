@@ -1,0 +1,168 @@
+.project-container {
+  background-color: #373636;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+/* .ant-carousel {
+  font-size: 20px !important;
+  color: #f05454 !important;
+} */
+
+.carousel-image {
+  padding: 0;
+}
+
+.carousel-image img {
+  width: 100%;
+}
+
+.carousel-text h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 20px 0;
+  letter-spacing: 0;
+}
+
+.carousel-text p {
+  font-size: 16px;
+  font-weight: 450;
+  color: #ffffff;
+  line-height: 30px;
+  padding: 20px 0;
+}
+
+.carousel-text span {
+  font-size: 16px;
+  font-weight: 450;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+.project-info-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-info-content h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.project-underline {
+  border-bottom: 4px solid #f05454;
+  padding: 8px 0;
+  width: 8%;
+}
+
+.project-Category p {
+  font-size: 12px;
+  font-weight: 600;
+  color: #9c9c9c;
+  text-transform: uppercase;
+  padding-top: 20px;
+  margin: 5px 0;
+  letter-spacing: 0;
+}
+
+.project-Category span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.project-Category a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #6362e5;
+}
+
+.project-Category a:hover {
+  color: #222222;
+}
+
+.project-btn {
+  padding: 20px 0;
+}
+
+.project-btn Button {
+  font-size: 16px;
+  font-weight: 550;
+  padding: 8px 40px;
+  border: none;
+  background: #6362e5;
+  color: #fff;
+  border-radius: 2px;
+  width: 180px;
+  font-family: sans-serif;
+  height: 40px;
+  cursor: pointer;
+}
+
+.project-social {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  background-color: #6362e5;
+  width: 75%;
+  padding: 30px 40px;
+}
+
+/* .social-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+  padding: 0 40px;
+} */
+
+/* .social-text svg {
+  font-size: 60px;
+color: #f05454;
+} */
+
+.social-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  font-style: italic;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+
+.project-social-image {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.project-social-image img {
+  width: 25%;
+  border: 6px solid #ffffff;
+  border-radius: 3px;
+}
+
+.project-social-image h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-bottom: 8px;
+  letter-spacing: 0;
+
+  /* padding-top: 20px; */
+}
+
+.project-social-image h4 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #cccecf;
+  letter-spacing: 0;
+}

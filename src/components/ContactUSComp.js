@@ -2,14 +2,16 @@ import React from 'react'
 import { Button, Col, Input, Row } from 'antd'
 // import TextArea from 'antd/es/input/TextArea'
 
-const ContactUSComp = () => {
+const ContactUSComp = ({ Heading = true }) => {
   return (
     <div className='ourcontact-container'>
       <div className='width90'>
-        <div className='ourcontact-main-heading'>
-          <h1>Contact Us</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </div>
+        {Heading && (
+          <div className='ourcontact-main-heading'>
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+        )}
         <Row gutter={[20, 20]}>
           <Col lg={12}>
             <div className='ourcontact-input-wrap'>

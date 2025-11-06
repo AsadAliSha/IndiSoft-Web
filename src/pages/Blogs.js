@@ -1,24 +1,25 @@
 import React from 'react'
 import SubBanner from '../components/SubBanner'
-import TestimonialClientCard from '../components/TestimonialClientCard'
+import Publishimage from '../assets/Publishimage.jpg'
 import Footer from '../components/Footer'
-import Testimonialimage from '../assets/testimonials.jpg'
+import BlogsComp from '../components/BlogsComp'
 
-const Testimonials = () => {
+const Blogs = () => {
   return (
     <div>
+      {' '}
       <SubBanner
-        title={'What people say?'}
+        title={'Latest Blogs'}
         text={
           'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         }
-        page={'Our Testimonials'}
-        image={Testimonialimage}
+        page={'Blogs - News'}
+        image={Publishimage}
       />
-      <TestimonialClientCard />
+      <BlogsComp />
       <Footer />
     </div>
   )
 }
 
-export default Testimonials
+export default Blogs

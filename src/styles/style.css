@@ -29,5 +29,11 @@
 @import './components//Footer.css';
 @import './components/Header.css';
 @import './components/SubBanner.css';
+@import './components//TestimonialClientCard.css';
+@import './components/ProjectsComp.css';
+@import './components/BlogsComp.css';
+@import './components/FaqsComp.css';
+
+
 /* Page CSS */
 @import './pages/login.css';

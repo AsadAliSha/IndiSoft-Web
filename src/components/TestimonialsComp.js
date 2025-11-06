@@ -1,5 +1,5 @@
 import React from 'react'
-import TestimonialsCardsComp from '../components/TestimonialsCardsComp'
+import TestimonialsCardsComp from './TestimonialsCards'
 import JhoneDoe from '../assets/Jhone-Doe.jpg'
 import AfaRose from '../assets/Afa-Rose.jpg'
 import KeenaLara from '../assets/Keena-Lara.jpg'

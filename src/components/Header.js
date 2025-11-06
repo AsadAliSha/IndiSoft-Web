@@ -21,6 +21,88 @@ const Header = () => {
       ),
     },
   ]
+  const AllPagesitems = [
+    {
+      key: '1',
+      label: (
+        <a target='_blank' rel='noopener noreferrer' href='https://www.antgroup.com'>
+          Login
+        </a>
+      ),
+    },
+    {
+      key: '2',
+      label: (
+        <a target='_blank' rel='noopener noreferrer' href='https://www.aliyun.com'>
+          SignUp
+        </a>
+      ),
+    },
+    {
+      key: '3',
+      label: (
+        <a target='_blank' rel='noopener noreferrer' href='https://www.aliyun.com'>
+          FAQs
+        </a>
+      ),
+    },
+    {
+      key: '4',
+      label: (
+        <a target='_blank' rel='noopener noreferrer' href='https://www.aliyun.com'>
+          Team
+        </a>
+      ),
+    },
+    {
+      key: '5',
+      label: (
+        <a target='_blank' rel='noopener noreferrer' href='https://www.aliyun.com'>
+          Blogs
+        </a>
+      ),
+    },
+    {
+      key: '6',
+      label: (
+        <a target='_blank' rel='noopener noreferrer' href='https://www.aliyun.com'>
+          Blog Details
+        </a>
+      ),
+    },
+    {
+      key: '7',
+      label: (
+        <a target='_blank' rel='noopener noreferrer' href='https://www.aliyun.com'>
+          Coming Soon
+        </a>
+      ),
+    },
+    {
+      key: '8',
+      label: (
+        <a target='_blank' rel='noopener noreferrer' href='https://www.aliyun.com'>
+          Terms & Conditions
+        </a>
+      ),
+    },
+    {
+      key: '9',
+      label: (
+        <a target='_blank' rel='noopener noreferrer' href='https://www.aliyun.com'>
+          Privacy Policy
+        </a>
+      ),
+    },
+    {
+      key: '10',
+      label: (
+        <a target='_blank' rel='noopener noreferrer' href='https://www.aliyun.com'>
+          Sample Page
+        </a>
+      ),
+    },
+  ]
   return (
     <div className='container'>
       <div className='width90'>
@@ -47,7 +129,7 @@ const Header = () => {
             <a href='#'>Pricing</a>
             <a href='#'>Testimonials</a>
             <a href='#'>
-              <Dropdown menu={{ items }}>
+              <Dropdown menu={{ items: AllPagesitems }}>
                 <a onClick={(e) => e.preventDefault()}>
                   <Space>
                     All Pages
